@@ -113,6 +113,7 @@ display: block;
 }
 .omnilink > img {
 	height:27px;	
+	margin-right: 10px;
 }
 
 
