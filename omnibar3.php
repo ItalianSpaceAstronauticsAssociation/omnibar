@@ -1,11 +1,11 @@
 <?php
-if(preg_match('/(?i)msie [4-8]/',$_SERVER['HTTP_USER_AGENT']))
-{
-	echo 'La versione di Internet Explorer che stai usando non &egrave; pienamente supportata. Considera un aggiornamento.';
+//if(preg_match('/(?i)msie [4-8]/',$_SERVER['HTTP_USER_AGENT']))
+//{
+//	echo 'La versione di Internet Explorer che stai usando non &egrave; pienamente supportata. Considera un aggiornamento.';
 
-}
-else
-{
+//}
+//else
+//{
     // if IE>8
 
 	$array_links = Array (
@@ -215,5 +215,5 @@ DEVELOPMENT SERVER
 	?>
 </div>
 <?php
-}
+//} IF != IE8
 ?>
